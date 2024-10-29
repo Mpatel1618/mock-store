@@ -12,3 +12,13 @@
     border-radius: 24px;
     animation: slide-in-x 3s;
 }
+
+@keyframes slide-in-x {
+    0% {
+        transform: translateX(3000px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
