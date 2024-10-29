@@ -1,8 +1,14 @@
 .welcome {
-    font-size: 10rem;
+    font-size: 6rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: inline;
     width: 200px;
     text-align: center;
     color: white;
+    animation: fade-in 5s;
+}
+
+@keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
